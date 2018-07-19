@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Сбор GPS координат</string>
+    <string name="base_url">http://web.gaz.local/base_1/hs/ex/gps/</string>
+    <string name="wait">Подождите…</string>
+    <string name="get_current_date">Текущая дата</string>
+    <string name="close">Закрыть</string>
+    <string name="hint_for_date">20052018</string>
+    <string name="error">Ошибка!</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="information_about_day_absent">Информация отсутсвует в базе. Подключитесь к локальной сети и попробуйте еще раз.</string>
+    <string name="unknown_error">Возникла ошибка при получении данных. Обратитесь к программистам.</string>
+    <string name="load_data">Загрузить информацию</string>
+    <string name="upload_data">Выгрузить информацию</string>
+    <string name="upload">Выгрузить</string>
+    <string name="connect_to_local">Подключитесь к локальной сети</string>
+    <string name="select">Выбрать</string>
+    <string name="driver_name">Имя водителя</string>
+    <string name="coordinates_filled">Координаты заполнены</string>
+    <string name="rewrite">Перезаписать</string>
+    <string name="show_on_map">Показать на карте</string>
+    <string name="cancel_change">Очистить введеные координаты</string>
+    <string name="show_filled">Отображать заполненые</string>
+    <string name="client_name">Имя получателя</string>
+    <string name="value_filled">Значение заполнено</string>
+    <string name="data_for_upload">Информация для выгрузки</string>
+    <string name="data">Дата</string>
+    <string name="exit">Выход</string>
+</resources>

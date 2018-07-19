@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/rewrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rewrite"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/show_on_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_on_map"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/cancel_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_change"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="10dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+</LinearLayout>
