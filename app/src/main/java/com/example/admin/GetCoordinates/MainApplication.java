@@ -15,6 +15,7 @@ public class MainApplication extends Application {
     @SuppressLint("StaticFieldLeak")
     public static LogUtil logs;
 
+    //git test
     @Override
     public void onCreate() {
         super.onCreate();
