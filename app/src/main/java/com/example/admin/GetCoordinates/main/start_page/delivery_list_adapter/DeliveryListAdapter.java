@@ -1,6 +1,5 @@
 package com.example.admin.GetCoordinates.main.start_page.delivery_list_adapter;
 
-import android.app.FragmentTransaction;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -59,7 +58,7 @@ public class DeliveryListAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         if (position != 0) {
-            RealmDeliverTarget client = Objects.requireNonNull(clients.get(position));
+            RealmDeliverTarget client = Objects.requireNonNull(clients.get(position-1));
             ((DeliveryTargetViewHolder) holder).setItemVisibility(client.getNewLatitude() != 0 && client.getNewLongitude() != 0 && !hideFilled ? 0 : 300);
             ((DeliveryTargetViewHolder) holder).setName(client.getName());
             ((DeliveryTargetViewHolder) holder).setPosition(position);
@@ -73,7 +72,7 @@ public class DeliveryListAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
 
     @Override
     public int getItemCount() {
-        return clients.size();
+        return clients.size() + 1;
     }
 
     @Override
