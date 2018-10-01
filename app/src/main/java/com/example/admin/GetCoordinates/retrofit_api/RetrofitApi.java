@@ -22,7 +22,7 @@ public interface RetrofitApi {
     @GET
     Call<ArrayList<Client>> getClient(@Url String url, @Header("Authorization") String auth);
 
-    @POST("http://web.gaz.local/base_1/hs/ex/gps/")
+    @POST("http://web.gaz.local/base/hs/ex/gps/")
     Call<String> setClientsCoordinates(@Header("Authorization") String auth, @Body ArrayList<Client> clients);
 
 }

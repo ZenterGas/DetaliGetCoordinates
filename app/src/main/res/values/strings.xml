@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Сбор GPS координат</string>
-    <string name="base_url">http://web.gaz.local/base_1/hs/ex/gps/</string>
+    <string name="base_url">http://web.gaz.local/base/hs/ex/gps/</string>
     <string name="wait">Подождите…</string>
     <string name="get_current_date">Текущая дата</string>
     <string name="close">Закрыть</string>
