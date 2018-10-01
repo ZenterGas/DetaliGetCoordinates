@@ -54,7 +54,7 @@ public class DeliveryTargetViewHolder extends RecyclerView.ViewHolder {
     @OnClick(R.id.cb_coordinates_not_empty)
     protected void onCbClick(){
         coordinatesNotEmpty.setChecked(true);
-        listener.onDeliveryTargetClick(position);
+        listener.onDeliveryTargetClick(position-1);
     }
 
     public interface OnDeliveryTargetClickListener{
